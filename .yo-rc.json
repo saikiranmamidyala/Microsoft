@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "exec-comms",
+    "libraryId": "e633289a-6234-481c-a9fb-c0f07c138ebc",
+    "environment": "spo"
+  }
+}

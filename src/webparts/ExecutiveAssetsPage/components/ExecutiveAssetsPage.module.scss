@@ -1,0 +1,121 @@
+.ExecutiveAssetsPage {
+  :global {
+    .ms-Breadcrumb-list > li:last-of-type > .ms-Breadcrumb-item {
+      font-weight: 600;
+      color: #000000;
+    }          
+  }
+  .flex {
+    display: flex;
+  }
+
+  .flexGrow {
+    flex: 1;
+  }
+
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    button {
+      width: 100%;
+      margin-bottom: 2px;
+    }
+  }
+
+
+  .pageBreadcrumb {
+    height: 28px;
+    max-height: 28px;
+    margin: 0;
+    margin-left: -8px;
+
+    :global {
+      .ms-Breadcrumb {
+        margin: 0;
+      }
+
+      .ms-Breadcrumb-item,
+      .ms-Breadcrumb-itemLink {
+        max-width: 200px;
+      }
+
+      .ms-Breadcrumb-itemLink:hover {
+        background-color: initial;
+        text-decoration: underline;  
+      }
+    }
+  }
+
+  .metadata {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px 0;
+  }
+  
+  .metadata > div {
+    margin-right: 38px;
+  }
+  
+  .metadataLabel {
+    margin-bottom: 3px;
+    font-weight: 600;
+  }
+  
+  .editDetails,
+  .addToOutlook {
+    padding-top: calc(1em + 6px);
+    color: rgb(0, 120, 215);
+    cursor:pointer;
+  }
+}
+.contextualMenuItemContainer {
+  padding-left:12px;
+}
+.detailsHeaderCell:hover, .contextualMenuItemContainer:hover {
+    background-color: rgb(238, 238, 238);
+}
+.contextualMenuItemContainer input {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .0001;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 9999999;
+}
+.contextualMenuUploadInput {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .0001;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 9999999;
+}
+.contextualMenuFileselectItem {
+    background-color:transparent;
+    border-style:none;
+    font-family: "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    position: relative;
+    box-sizing: border-box;
+}
+.contextualMenuUploaderButton {
+  background: none!important;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+  cursor: pointer;
+  border-style: none;
+  height: 36px;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="43px" viewBox="0 0 41 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Sync To Outlook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ExecComms-Teams-Concept" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sync-To-Outlook">
+            <polygon id="Path-2" fill="#0576C6" points="22 0 0 4 0 34 22 39"></polygon>
+            <polygon id="Path-6" stroke="#0073C5" stroke-width="2" points="20 9 38 9 38 34 20 34"></polygon>
+            <polyline id="Path-7" stroke="#0073C5" stroke-width="2" points="38 12 27.488102 22.511898 16.9880952 12.0118913"></polyline>
+            <circle id="Oval-4" fill="#6BA58C" cx="31" cy="33" r="10"></circle>
+            <path d="M36,35 C32,39 29,39 25,34" id="Path-8" stroke="#FFFFFF" stroke-width="1.5"></path>
+            <polyline id="Path-9" stroke="#FFFFFF" stroke-width="1.5" points="25 39 25 34 30 34"></polyline>
+            <path d="M36,29.1145618 C32,33.1145618 29,33.1145618 25,28.1145618" id="Path-8" stroke="#FFFFFF" stroke-width="1.5" transform="translate(30.500000, 30.057281) scale(-1, -1) translate(-30.500000, -30.057281) "></path>
+            <polyline id="Path-9" stroke="#FFFFFF" stroke-width="1.5" transform="translate(33.500000, 29.500000) scale(-1, -1) translate(-33.500000, -29.500000) " points="31 32 31 27 36 27"></polyline>
+            <ellipse id="Oval-6" stroke="#FFFFFF" stroke-width="2" cx="11" cy="19.5" rx="5" ry="6.5"></ellipse>
+        </g>
+    </g>
+</svg>

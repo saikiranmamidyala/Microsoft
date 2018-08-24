@@ -1,0 +1,226 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.permissionsPage {
+  .flex {
+    display: flex;
+  }
+
+  .flexGrow {
+    flex: 1 ;
+  }
+  .flexShrink {
+    flex:0;
+  }
+
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+
+  .flexRow {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .pageBreadcrumb {
+    height: 28px;
+    margin-bottom: 24px;
+  }
+ 
+  :global {
+    .ms-Dialog-main{
+      min-width: 388px !important;
+    }
+    .ms-Breadcrumb {
+      margin: 0;
+      margin-left: -2px;
+    }
+    
+    .ms-Breadcrumb-list > li:last-of-type > .ms-Breadcrumb-item {
+      font-weight: 600;
+      color: #000000;
+    }
+   
+  }
+  .activeGroupContainer {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    display:flex;
+    height:100%;
+    flex: 1;
+  }
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .permButton {
+    // Our button
+    text-decoration: none;
+    height: 42px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: whitesmoke;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-black;
+    width:100%;
+    
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: left;
+    cursor: pointer;
+    padding: 8px 7px 0px 10px;
+    border: 1px #e2e2e2 solid;
+    box-sizing: border-box;
+  }
+  .permButton > div {
+    display: table-cell;
+    vertical-align: middle;;
+  }
+  .ms-Persona-imageArea .image {
+    border: 1px;
+    border-color: #999;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+
+  .sectionHeader {
+    font-weight: 500;
+    font-size: $ms-font-size-l;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .tab{
+    font-weight: $ms-font-weight-semibold;
+    font-size: $ms-font-size-l;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    background-color:#EBEBEB;
+    width: 200px;
+    margin-right:8px;
+    padding-left:10px;
+  }
+  .inactiveTab{
+    font-weight: $ms-font-weight-regular;
+  }
+  .hidden{
+    display:none;
+  }
+  .collapsableSection{
+    min-width: auto;
+    box-sizing: border-box;
+  }
+  .activeGroup{
+    background-color:#fff;
+    border-right-style:none; 
+    width: calc(100% + 2px);
+    
+  }
+
+
+  .outer {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    /*position:absolute; */
+    height:100%;
+    width:100%;
+    min-height:500px;
+  }
+  
+  .inner {
+    display:flex;
+    flex-direction:row;
+    flex:1;
+    
+  }  
+  .left {
+    flex: 1 1 auto;
+    max-width:300px;
+    background: #f4f4f4;
+    border-right: 2px #e4e4e4 solid;
+  }
+  .leftContentContainer {
+    background: #f4f4f4;
+  }
+  .right {
+    flex: 1 1 auto;
+    border: 12px solid #f4f4f4;
+    border-left-style: none;
+  }
+  .rightContentContainer{
+    padding: 20px;
+    margin: 30px;
+    border-left-style: none;
+    background: #ffffff;
+  }
+  .rightTopContainer{
+    display: block;
+    min-height: 40px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .blueButton{
+    color:#fff;
+    background-color: #0079DA;
+    float:right;
+  }
+  .transparent {
+    background-color: transparent
+  }
+  button.transparent{
+    min-width: 0;
+    padding:0 8px
+  }
+  .userName {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left:4px;
+  }
+}

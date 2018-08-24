@@ -1,0 +1,65 @@
+.PastEventsList {
+    background-color: rgb(248, 248, 248);
+    padding: 12px 12px 21px 12px;
+    box-sizing: border-box;
+    
+    :global {
+      .ms-DetailsList {
+        overflow-x: auto;
+      }
+  
+      .ms-DetailsRow,
+      .ms-DetailsHeader {
+        background-color: rgb(248, 248, 248);
+      }
+  
+      .ms-DetailsRow {
+        color: rgb(59, 59, 59);
+        border-bottom: 2px solid rgb(224, 224, 224);
+        cursor: default;
+      }
+  
+      .ms-DetailsRow:hover {
+        background-color: rgb(238, 238, 238);
+        /* color: rgba(255, 255, 255, 0.8); */
+      }
+  
+      .ms-DetailsRow-cell {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+      }
+  
+      .ms-DetailsRow-cell:nth-of-type(2) {
+        font-weight: 600;
+      }
+      
+      .ms-DetailsHeader {
+        border-bottom: 2px solid rgb(224, 224, 224);
+      }
+  
+      .ms-DetailsHeader-cell:hover {
+        background-color: rgb(238, 238, 238);
+      }
+  
+      .ms-DetailsHeader-cell:first-of-type:hover {
+        background-color: initial;
+        color: initial;
+      }
+  
+      .ms-DetailsHeader-cell i {
+        position: relative;
+        top: -1px;
+      }
+  
+      .ms-DetailsHeader-cellTitle {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+      }
+    }
+  }
+  
+  
+  
+  

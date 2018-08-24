@@ -1,0 +1,89 @@
+@import '../theming';
+
+.FutureEventsList {
+  background-color: rgb(248, 248, 248);
+  padding: 0 0 24px 0;
+  box-sizing: border-box;
+  
+  :global {
+    // .ms-DetailsList {
+    //   overflow-x: auto;
+    // }
+
+    .ms-DetailsList > div > div,
+    .ms-DetailsRow,
+    .ms-DetailsHeader {
+      background-color: rgb(248, 248, 248);
+    }
+
+    .ms-DetailsRow {
+      border-bottom-color: rgba(0, 0, 0, 0.1);
+      color: #767676 !important;
+
+      &:before {
+        border-top: 0 !important;
+      }
+    }
+
+    .ms-DetailsRow:hover {
+      background-color: initial;
+    }
+
+    .ms-DetailsRow-cell {
+      font-size: 15px;
+
+      :global {
+        .ms-Link {
+          font-weight: 600;
+          color: $ms-themePrimary;    
+        }
+      }
+    }
+
+    .ms-DetailsHeader {
+      border-bottom-width: 2px;
+      border-bottom-color: #dddddd;
+      padding-bottom: 0;
+    }
+
+    .ms-DetailsHeader > div:nth-child(1) {
+      &:hover {
+        background-color: initial;
+      }
+    }
+
+    .ms-DetailsHeader > div:nth-child(2),
+    .ms-DetailsHeader > div:nth-child(4),
+    .ms-DetailsHeader > div:nth-child(6),
+    .ms-DetailsHeader > div:nth-child(8) {
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(232, 232, 232);
+      }
+    }
+
+    .ms-DetailsHeader-cell i {
+      position: relative;
+      top: -1px;
+    }
+
+    .ms-DetailsRow-fields > div:nth-child(1) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0 0 8px;
+    }
+
+    .ms-DetailsRow-fields > div:nth-child(2),
+    .ms-DetailsRow-fields > div:nth-child(3),
+    .ms-DetailsRow-fields > div:nth-child(4),
+    .ms-DetailsRow-fields > div:nth-child(5) {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+}
+
+
+

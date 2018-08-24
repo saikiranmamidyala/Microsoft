@@ -1,0 +1,49 @@
+.SharingDialog {
+  :global {
+    .ms-Dialog-main {
+      min-width: 600px;
+    }
+
+    .ms-GroupHeader {
+      &:hover {
+        background-color: initial;
+        color: #333333;
+      }
+
+      .ms-GroupHeader-expand {
+        cursor: pointer;
+      }
+
+      .ms-GroupHeader-title {
+        cursor: default;
+      }
+    }
+
+    .ms-DetailsRow {
+      border: 0;
+
+      &:hover {
+        background-color: initial;
+        color: #767676;
+      }
+    }
+  }
+
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .flexGrow {
+    flex: 1;
+  }
+
+  .inviteButton {
+    height: 40px;
+  }
+
+  .permissions {
+    margin-top: 24px;
+  }
+}

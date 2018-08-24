@@ -1,0 +1,90 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "future-events-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/futureEventsPage/FutureEventsPageWebPart.js",
+          "manifest": "./src/webparts/futureEventsPage/FutureEventsPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventPage/EventPageWebPart.js",
+          "manifest": "./src/webparts/eventPage/EventPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "config-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/configPage/ConfigPageWebPart.js",
+          "manifest": "./src/webparts/configPage/ConfigPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "past-events-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pastEventsPage/PastEventsPageWebPart.js",
+          "manifest": "./src/webparts/pastEventsPage/PastEventsPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "assets-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/executiveAssetsPage/ExecutiveAssetsPageWebPart.js",
+          "manifest": "./src/webparts/executiveAssetsPage/ExecutiveAssetsPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "remove-tab-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/removeTabPage/RemoveTabPageWebPart.js",
+          "manifest": "./src/webparts/removeTabPage/RemoveTabPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "calendar-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calendarPage/CalendarPageWebPart.js",
+          "manifest": "./src/webparts/calendarPage/CalendarPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "search-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchPage/SearchPageWebPart.js",
+          "manifest": "./src/webparts/searchPage/SearchPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "permissions-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/permissionsPage/PermissionsPageWebPart.js",
+          "manifest": "./src/webparts/permissionsPage/PermissionsPageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FutureEventsPageWebPartStrings": "lib/webparts/futureEventsPage/loc/{locale}.js",
+    "EventPageWebPartStrings": "lib/webparts/eventPage/loc/{locale}.js",
+    "ConfigPageWebPartStrings": "lib/webparts/configPage/loc/{locale}.js",
+    "PastEventsPageWebPartStrings": "lib/webparts/pastEventsPage/loc/{locale}.js",
+    "AssetsPageWebPartStrings": "lib/webparts/executiveAssetsPage/loc/{locale}.js",
+    "RemoveTabPageWebPartStrings": "lib/webparts/removeTabPage/loc/{locale}.js",
+    "CalendarPageWebPartStrings": "lib/webparts/calendarPage/loc/{locale}.js",
+    "SearchPageWebPartStrings": "lib/webparts/searchPage/loc/{locale}.js",
+    "PermissionsPageWebPartStrings": "lib/webparts/permissionsPage/loc/{locale}.js"
+  }
+}

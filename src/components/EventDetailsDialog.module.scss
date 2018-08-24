@@ -1,0 +1,94 @@
+.NewEventDialog {
+  .dialogLoading {
+    min-height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  :global {
+    .ms-Dialog-main {
+      min-width: 580px;
+      outline: 0px solid transparent ;
+    }
+  }
+}
+
+.NewEventForm {
+  .row {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  &:first-child {
+    margin-bottom: 6px;
+  }
+
+  .centerVert {
+    display: flex;
+    align-items: center;
+  }
+
+  .label {
+    width: 150px;
+  }
+
+  .input {
+    flex: 1;
+  }
+
+  div[class^="personas"] {
+    margin: 0;
+  }
+}
+
+.moveUp {
+  position: relative;
+  top: -12px;
+
+  p {
+    text-align: center;
+  }
+}
+
+.SavingEvent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.SavedEvent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+
+  > div {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  i {
+    font-size: 50px;
+  }  
+}
+
+.ErrorView {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+
+  > div {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  i {
+    font-size: 50px;
+  }
+}

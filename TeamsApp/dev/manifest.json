@@ -1,0 +1,38 @@
+{
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.0",
+    "version": "1.0.0",
+    "id": "c95fe469-e984-f85e-d53a-2a10058b17dd",
+    "packageName": "com.blulinksolutions.exec-comms-spfx-react-dev",
+    "developer": {
+      "name": "Blulink",
+      "websiteUrl": "https://blulinksolutions.sharepoint.com/sites/ExecCommsvNextDev",
+      "privacyUrl": "https://blulinksolutions.sharepoint.com/sites/ExecCommsvNextDev",
+      "termsOfUseUrl": "https://blulinksolutions.sharepoint.com/sites/ExecCommsvNextDev"
+    },
+    "name": {
+      "short": "(Dev) Exec Comms vNext"
+    },
+    "description": {
+      "short": "(Dev) Exec Comms vNext",
+      "full": "(Dev) Exec Comms vNext"
+    },
+    "icons": {
+      "outline": "tab-44.png",
+      "color": "tab-88.png"
+    },
+    "accentColor": "#223344",
+    "configurableTabs": [
+      {
+        "configurationUrl": "https://blulinksolutions.sharepoint.com/sites/ExecCommsvNextDev/SitePages/ConfigTab.aspx",
+        "scopes": [
+          "team"
+        ],
+        "canUpdateConfiguration": true
+      }
+    ],
+    "validDomains": [
+      "blulinksolutions.sharepoint.com"
+    ]
+  }
+  

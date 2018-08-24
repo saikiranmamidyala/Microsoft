@@ -1,0 +1,196 @@
+@import '../theming';
+
+:global {
+  .ms-Breadcrumb-list > li:last-of-type > .ms-Breadcrumb-item {
+    font-weight: 600;
+    color: #000000;
+  }
+}
+
+.documentsBreadcrumb {
+  height: 28px;
+  margin-bottom: 12px;
+  margin-left: -8px;
+
+  // Styles copied from `listItem_*` class that is on the same
+  // element as the `ms-Breadcrumb-listItem` class
+  .shareBreadcrumb {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    :global {
+      .ms-Breadcrumb-item {
+        font-weight: 600 !important;
+        color: #000000 !important;
+      }
+    }    
+  }
+
+  .shareBreadcrumbBtn {
+    height: 28px;
+    padding-left: 0;
+    top: 2px;
+    left: -1px;
+  }
+
+  :global {
+    .ms-Breadcrumb {
+      margin: 0;
+    }
+
+    .ms-Breadcrumb-item,
+    .ms-Breadcrumb-itemLink {
+      max-width: 200px;
+    }
+
+    .ms-Breadcrumb-itemLink:hover {
+      background-color: initial;
+      text-decoration: underline;
+    }
+  }
+}
+
+.DetailsList {
+  box-sizing: border-box;
+  background-color: rgb(248, 248, 248);
+  padding: 0 0 24px 0;
+
+  .shareIcon {
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .shareIconUniquePerms {
+    color: blue;
+  }
+
+  .fileIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+
+  .folderIcon {
+    position: absolute;
+    font-size: 24px;
+    color: tan;
+  }
+
+  :global {
+    .ms-DetailsHeader {
+      border-bottom-width: 2px;
+      border-bottom-color: #dddddd;
+    }
+    
+    .ms-DetailsList > div > div,
+    .ms-DetailsRow,
+    .ms-DetailsHeader {
+      background-color: rgb(248, 248, 248);
+    }
+
+    .ms-DetailsRow {
+      border-bottom-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .ms-DetailsHeader > div:nth-child(1) {
+      text-align: center;
+
+      &:hover {
+        background-color: initial;
+      }
+    }
+
+    .ms-DetailsHeader > div:nth-child(2),
+    .ms-DetailsHeader > div:nth-child(4),
+    .ms-DetailsHeader > div:nth-child(5),
+    .ms-DetailsHeader > div:nth-child(7) {
+      &:hover {
+        background-color: #e8e8e8;
+      }
+    }
+
+    .ms-DetailsRow-fields > div:nth-child(1) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ms-DetailsRow-fields > div:nth-child(2) {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+    
+    .ms-DetailsRow-cell {
+      font-size: 15px;
+
+      :global {
+        .ms-Link {
+          font-weight: 600;
+          color: $ms-themePrimary;    
+        }
+      }      
+    }
+  }
+}
+
+.contextualMenuItemContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.detailsHeaderCell:hover, .contextualMenuItemContainer:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.contextualMenuItemContainer input {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .0001;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 9999999;
+}
+
+.contextualMenuUploadInput {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .0001;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 9999999;
+}
+
+.contextualMenuFileselectItem {
+    background-color:transparent;
+    border-style:none;
+    font-family: "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.contextualMenuUploaderButton {
+  background: none !important;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  cursor: pointer;
+  border-style: none;
+  height: 32px;
+}
+

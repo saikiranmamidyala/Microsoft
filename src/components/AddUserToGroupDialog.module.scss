@@ -1,0 +1,46 @@
+.AddUserToGroupDialog.module.scss {
+  :global {
+    .ms-Dialog-main {
+      min-width: 320px;
+      width:320px;
+    }
+    .input-container{
+      display:flex;
+      flex-wrap: nowrap;
+    }
+    .input-container .ms-TextField {
+      width:100%
+    }
+    .extensionString {
+      padding-left: 10px;
+      padding-top: 4px;
+    }
+  }
+  .flex {
+    display: flex;
+  }
+
+  .flexGrow {
+    flex: 1 ;
+  }
+  .flexShrink {
+    flex:0;
+  }
+
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+
+  .flexRow {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .inviteButton {
+    height: 40px;
+  }
+
+}

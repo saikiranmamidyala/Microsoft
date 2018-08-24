@@ -1,0 +1,12 @@
+//{
+//  "$schema": "https://dev.office.com/json-schemas/spfx-build/write-manifests.schema.json",
+//  "cdnBasePath": "https://blulinksolutions.sharepoint.com/sites/ExecCommsvNext/App"
+//}
+
+//dev settings
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/write-manifests.schema.json",
+  //"cdnBasePath": "https://microsoft.sharepoint.com/teams/ExecComms656/Style Library/CDN"
+  //"cdnBasePath": "https://microsoft.sharepoint.com/teams/dev_execcomms/cdn"
+  "cdnBasePath": "https://publiccdn.sharepointonline.com/microsoft.sharepoint.com/teams/dev_execcomms/cdn"
+}

@@ -1,0 +1,35 @@
+.FutureEventsPage {
+  .flex {
+    display: flex;
+  }
+
+  .flexGrow {
+    flex: 1;
+  }
+
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+ 
+  .pageBreadcrumb {
+    height: 28px;
+    margin-bottom: 24px;
+  }
+
+  :global {
+     .ms-SearchBox{
+    min-width: 200px !important;
+  }
+    .ms-Breadcrumb {
+      margin: 0;
+      margin-left: -2px;
+    }
+
+    .ms-Breadcrumb-list > li:last-of-type > .ms-Breadcrumb-item {
+      font-weight: 600;
+      color: #000000;
+    }
+  }
+}
